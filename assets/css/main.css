@@ -1,0 +1,61 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #313741;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(23, 211, 150, 0.80) 0%, rgba(7, 247, 247, 0.80) 100%), url("../img/header-bg.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+ul, ol, nav {
+    list-style: none;
+}
+
+.menu-top {
+    font-size: 20px;
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu-top a, .menu-burger {
+    color: white;
+}
+
+.menu-socials {
+    display: flex;
+}
+
+.menu-socials li {
+    margin-right: 15px;
+    color: white;
+}
+
+.header_info {
+    position: relative;
+    z-index: 1;
+}
+
+.header_info h1 {
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.header_info h2 {
+    font-size: 84px;
+    font-weight: 400;
+}
+
+.header_info div {
+    font-size: 24px;
+}
