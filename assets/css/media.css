@@ -1,0 +1,55 @@
+@media (max-width: 720px) {
+    .profile_avatar:after{
+        display: none;
+    }
+
+    .header_info h1{
+        font-size: 64px;
+    }
+    .header_info h2{
+        font-size: 35px;
+    }
+    h2:not(.header_h2){
+        font-size: 42px;
+    }
+    .profile_avatar img {
+        width: 100%;
+    }
+
+    .timeline{
+        align-items: flex-start;
+    }
+
+    .timeline_content:before{
+        left:35px;
+    }
+
+    .timeline_block{
+        position: relative;
+        padding-left: 65px;
+    }
+
+    .timeline_block .icon{
+        position: absolute;
+        top: 0px;
+        left: 33px;
+    }
+
+    .timeline_block:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    .timeline_footer{
+        margin-left: 28px;
+    }
+
+}
+
+
+
+
+@media (min-width:376px) and (max-width: 475px){
+    body{
+        /*background-color: #0428e8;*/
+    }
+}
